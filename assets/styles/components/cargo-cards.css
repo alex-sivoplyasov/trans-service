@@ -1,0 +1,54 @@
+.cargo-cards {
+    font-family: 'Cera Pro Regular';
+}
+
+.cargo-cards__container {
+    max-width: 1136px;
+    /*background-color: antiquewhite;*/
+    margin: 0 auto;
+}
+
+.cargo-cards__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cargo-cards__item {
+    width: 100%;
+    min-height: 280px;
+    border: 1px solid #C4C4C4;
+    padding: 88px 48px;
+    /*background-image: url(../../images/van.jpg);*/
+}
+
+@media screen and (min-width: 580px) {
+    .cargo-cards__item  {
+        width: 50%;
+    }
+}
+
+.cargo-cards__item:first-child {
+    background-color: #F5F9FA;
+}
+
+
+.cargo-cards__title {
+    line-height: 27px;
+    font-size: 20px;
+    color: #066271;
+}
+
+.cargo-cards__text {
+    line-height: 24px;
+    font-size: 16px;
+
+    color: #5A6D70;
+}
+
+.cargo-cards__image-wrapper {
+    position: absolute;
+    width: 744px;
+    height: 285px;
+    left: 312px;
+    top: -44px;
+}
