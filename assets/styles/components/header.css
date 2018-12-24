@@ -1,3 +1,67 @@
 body {
     font-family: 'Cera Pro Regular';
 }
+
+.header {
+    /*background: #FAFAFA;*/
+    box-shadow: inset 0px -1px 0px #066271;
+    /*transform: matrix(1, 0, 0, -1, 0, 0);*/
+    height: 40px;
+}
+
+.header__container {
+    max-width: 1136px;
+    margin: 0 auto;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.header__item {
+    /*width: 20%;*/
+
+}
+
+.header__content-wrapper {
+    line-height: 20px;
+    font-size: 14px;
+    display: flex;
+    color: #066271;
+    /*vertical-align: center;*/
+}
+
+.header__text {
+    color: #000;
+}
+
+.header__button {
+    padding: 0 20px;
+    line-height: 23px;
+    font-size: 16px;
+    text-align: center;
+    height: 40px;
+    color: #FFFFFF;
+    border: none;
+    background: radial-gradient(39.51px at 66.71% 45.87%, rgba(7, 116, 134, 0.6) 0%, rgba(5, 91, 106, 0) 100%), radial-gradient(52.83px at 14.22% 64.77%, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #066271 0%, #055866 100%);
+}
+
+
+.white {
+    background: #F0F0F0;
+    width: 16px;
+    height: 4px;
+}
+
+.blue {
+    background: blue;
+    width: 16px;
+    height: 4px;
+}
+.red {
+    background: red;
+    width: 16px;
+    height: 4px;
+}

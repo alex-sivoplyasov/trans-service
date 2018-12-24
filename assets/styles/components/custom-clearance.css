@@ -1,0 +1,30 @@
+.custom-clearance {
+
+}
+
+.custom-clearance__container {
+    max-width: 1136px;
+    min-height: 312px;
+    margin: 0 auto;
+    background: #F5F9FA;
+    border: 1px solid rgba(211, 226, 230, 0.25);
+    box-sizing: border-box;
+    padding: 70px 90px;
+    position: relative;
+
+}
+
+.custom-clearance__text {
+    line-height: 43px;
+    font-size: 32px;
+
+    color: #5A6D70;
+}
+
+.custom-clearance__picture {
+    width: 289px;
+    height: 371px;
+    position: absolute;
+    top: -10px;
+    right: 50px;
+}

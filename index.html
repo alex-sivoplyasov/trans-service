@@ -3,49 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <title>Trans-service</title>
-    <link rel="stylesheet" href="./assets/styles/components/header.css">
+
     <link rel="stylesheet" href="./assets/styles/layout.css">
     <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/styles/fonts.css">
+    <link rel="stylesheet" href="./assets/styles/components/header.css">
+    <link rel="stylesheet" href="./assets/styles/components/nav.css">
+    <link rel="stylesheet" href="./assets/styles/components/hero.css">
     <link rel="stylesheet" href="./assets/styles/components/cargo-cards.css">
     <link rel="stylesheet" href="./assets/styles/components/services.css">
+    <link rel="stylesheet" href="./assets/styles/components/custom-clearance.css">
+    <link rel="stylesheet" href="./assets/styles/components/form.css">
     <link rel="stylesheet" href="./assets/styles/components/footer.css">
 </head>
 <body>
 
 <div class="app">
-    <!--<header class="header">-->
-        <!--<div class="header__container">-->
-            <!--<div class="header__contact-information">-->
-                <!--<div class="header__city-wrapper">-->
-                    <!--<h4 class="header__city">Челябинск</h4>-->
-                    <!--<h5 class="header__choose-city">Выберите город бля).</h5>-->
 
-                <!--</div>-->
 
-                <!--<div class="header__phone-wrapper">-->
-                    <!--<h4 class="header__phone-title">Наш телефон: </h4>-->
-                    <!--<h5 class="header__phone-number">+7 351 700-02-04</h5>-->
-                <!--</div>-->
+    <header class="header">
+        <div class="header__container">
+            <div class="header__list-wrapper">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <div class="header__content-wrapper">
+                            <h5 class="header__content-title">
+                                Челябинск
+                            </h5>
+                            <p class="header__text">Выберите город</p>
 
-                <!--<div class="header__mail-wrapper">-->
-                    <!--<h4 class="header__mail-title">-->
-                        <!--Электронная почта:-->
-                    <!--</h4>-->
+                        </div>
+                    </li>
 
-                    <!--<h5 class="header__mail">-->
-                        <!--info@trans-s.su-->
-                    <!--</h5>-->
-                <!--</div>-->
+                    <li class="header__item">
+                        <div class="header__content-wrapper">
+                            <h5 class="header__content-title">
+                                 Наш телефон:
+                            </h5>
 
-                <!--<div class="header__language-wrapper">-->
-                   <!--div.header__-->
-                <!--</div>-->
+                            <p class="header__text">+7 351 700-02-04</p>
 
-            <!--</div>-->
-        <!--</div>-->
+                        </div>
+                    </li>
 
-    <!--</header>-->
+                    <li class="header__item">
+                        <div class="header__content-wrapper">
+                            <h5 class="header__content-title">
+                                Электронная почта:
+                            </h5>
+
+                            <p class="header__text">info@trans-s.su</p>
+                        </div>
+                    </li>
+
+                    <li class="header__item">
+                        <div class="header__content-wrapper">
+                            <h4 class="header__content-title">
+                                Rus
+                            </h4>
+                            <div class="header__picture-wrapper">
+                                <div class="white"></div>
+                                <div class="blue"></div>
+                                <div class="red"></div>
+                            </div>
+                            <h4 class="header__content-title">
+                                Eng
+                            </h4>
+                            <h4 class="header__content-title">
+                                Chn
+                            </h4>
+                        </div>
+                    </li>
+
+                    <li class="header__item">
+                        <div class="header__content-wrapper">
+                            <button class="header__button">
+                                Свяжитесь с нами
+
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="nav__container">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        <div class="nav__logo-wrapper">
+                            <img src="./assets/images/logo.png" alt="" class="nav__logo">
+
+                        </div>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./" class="nav__link">
+                        Главная
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        О компании
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        Услуги
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        Справочная игформация
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#" class="nav__link">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero__picture-wrapper">
+            <img src="./assets/images/hero.jpg" alt="" class="hero__picture">
+        </div>
+    </section>
 
     <section class="services">
         <div class="services__container">
@@ -174,26 +266,93 @@
         </div>
     </section>
 
+    <section class="customs-clearance">
+        <div class="custom-clearance__container">
+            <div class="custom-clearance__content">
+                <p class="custom-clearance__text">
+                    Дополнительно мы имеем возможность таможенного оформления и страхования всех отправляемых грузов.
+                </p>
+            </div>
+
+            <div class="custom-clearance__picture-wrapper">
+                <img class="custom-clearance__picture" src="./assets/images/Docs.png" alt="" >
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="form__container">
+            <form action="" class="form__content">
+                <h3 class="form__title">Свяжитесь с нами</h3>
+                <input class="form__field" type="text" placeholder="Введите ваше имя: ">
+                <input class="form__field" type="text" placeholder="Введите вашу электронную почту: ">
+                <input class="form__field" type="text" placeholder="Введите номер телефона: ">
+                <textarea class="form__field form__field--textarea" type="text" placeholder="Задайте ваш вопрос"></textarea>
+                <input class="form__button" type="submit" placeholder="Jnghfdbnm" >
+            </form>
+
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="footer__container">
             <ul class="footer__list">
                 <li class="footer__item">
                     <h4 href="#" class="footer__title">Карта сайта</h4>
                 </li>
+
                 <li class="footer__item">
-                    <a href="#" class="footer__link">Пункт</a>
+                    <a href="#" class="footer__link">Главная</a>
+                </li>
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">О компании</a>
+                </li>
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Услуги компании</a>
+                </li>
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Справочная информация</a>
+                </li>
+
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Контакы</a>
                 </li>
             </ul>
 
             <ul class="footer__list">
                 <li class="footer__item">
-                    frerre
+                    <h4 href="#" class="footer__title">Контакты</h4>
+                </li>
+
+                <li class="footer__item">
+                    <h5 class="footer__text">Тел: +7 351 700-02-04</h5>
+                </li>
+
+                <li class="footer__item">
+                    <h5 class="footer__text">Эл. почта: info@trans-s.su</h5>
+                </li>
+
+                <li class="footer__item">
+                    <h5 class="footer__text">Ваш город: Челябинск</h5>
                 </li>
             </ul>
 
             <ul class="footer__list">
+
                 <li class="footer__item">
-                    frerre
+                    <h4 href="#" class="footer__title">Наш адрес</h4>
+                </li>
+
+                <li class="footer__item">
+                    <h5 class="footer__text">454048, Россия — Челябинск
+                        ул. Энтузиастов, д.30 — оф.406</h5>
+                </li>
+
+                <li class="footer__item">
+                    <h5 class="footer__text">Разработка сайта и продвижение 2018 © DOLINGER WEB</h5>
                 </li>
             </ul>
 

@@ -9,8 +9,48 @@
     width: 1136px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .footer__list {
-    width: 33.3%;
+    width: 100%;
+}
+
+@media screen and (min-width: 580px) {
+
+
+    .footer__list {
+         width: 25%;
+
+     }
+    .footer__list:last-child {
+        width: 50%;
+    }
+
+}
+
+.footer__item {
+
+}
+
+.footer__link {
+    text-decoration: none;
+    line-height: 17px;
+    font-size: 12px;
+
+    color: #5A6D70;
+}
+
+.footer__text {
+    line-height: 17px;
+    font-size: 12px;
+    font-weight: unset;
+    color: #5A6D70;
+}
+
+.footer__title {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #066271;
 }

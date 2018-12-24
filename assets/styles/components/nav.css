@@ -1,0 +1,33 @@
+.nav {
+    height: 130px;
+    background: #FFFFFF;
+    padding: 44px 0;
+}
+
+.nav__container {
+    width: 1136px;
+    margin: 0 auto;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+
+}
+.nav__item:first-child {
+    margin-right: 220px;
+}
+
+.nav__link {
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+    color: #4E4E4E;
+}
+
+.nav__link:hover, .nav__link:active {
+    color: #066271;
+}
