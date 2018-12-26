@@ -17,7 +17,7 @@ body {
 .header__list {
     display: flex;
     justify-content: space-between;
-    /*align-items: center;*/
+    align-items: center;
 }
 
 .header__item {
@@ -35,6 +35,7 @@ body {
 
 .header__text {
     color: #000;
+    margin: 0;
 }
 
 .header__button {

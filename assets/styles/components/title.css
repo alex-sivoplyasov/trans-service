@@ -1,26 +1,29 @@
-.services {
+.title {
     background: url("../../images/map-bg.png");
 }
 
-.services__container {
+.title__container {
     max-width: 1136px;
     margin: 0 auto;
+    padding: 30px 0 90px 0;
 }
 
-.services__list {
+.title__list {
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.services__item {
+.title__item {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    padding: 80px 0;
 }
 
-.services__title {
+.title__item:first-child {
+    width: 100%;
+}
+.title__title {
     line-height: 53px;
     font-size: 40px;
 
@@ -28,7 +31,7 @@
 
 }
 
-.services__strip {
+.title__strip {
     width: 80px;
     height: 2px;
     background: #056474;
@@ -36,27 +39,27 @@
 
 }
 
-.services__text {
+.title__text {
     line-height: 24px;
     font-size: 16px;
 
     color: #5A6D70;
 }
 
-.services__partners {
+.title__partners {
     width: 50%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.services__partners-number {
+.title__partners-number {
     line-height: 64px;
     font-size: 48px;
 
     color: #066271;
 }
 
-.services__partners-text {
+.title__partners-text {
     line-height: 21px;
     font-size: 16px;
 

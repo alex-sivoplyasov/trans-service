@@ -1,0 +1,19 @@
+.breadcrumbs {
+
+}
+
+.breadcrumbs__container {
+    width: 1136px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 20px;
+
+    color: #8D9A9C;
+}
+
+.breadcrumbs__content {
+    display: flex;
+}
+.breadcrumbs__active {
+    color: #066271;
+}

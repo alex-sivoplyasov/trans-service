@@ -30,4 +30,14 @@
 
 .nav__link:hover, .nav__link:active {
     color: #066271;
+
 }
+
+.nav__popup-item {
+    display: none;
+}
+
+.nav__popup-item:hover {
+    display: block;
+}
+

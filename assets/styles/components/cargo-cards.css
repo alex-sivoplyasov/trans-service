@@ -11,19 +11,30 @@
 .cargo-cards__list {
     display: flex;
     flex-wrap: wrap;
+    margin-top: -135px;
 }
 
 .cargo-cards__item {
     width: 100%;
-    min-height: 280px;
+    min-height: 250px;
     border: 1px solid #C4C4C4;
     padding: 88px 48px;
+    background-color: #F5F9FA;
+    z-index: 1;
     /*background-image: url(../../images/van.jpg);*/
 }
 
+.cargo-cards__content {
+    width: 128px;
+    height: 128px;
+    background: linear-gradient(180deg, #D2EEF5 0%, #B6E9F0 100%);
+    border-radius: 50%;
+    position: center;
+    margin: 0 auto;
+}
 @media screen and (min-width: 580px) {
     .cargo-cards__item  {
-        width: 50%;
+        width: 33.3%;
     }
 }
 
