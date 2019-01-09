@@ -1,8 +1,9 @@
 .footer {
     background: #FAFAFA;
-    padding: 70px 0;
+    padding: 70px 20px;
     box-shadow: inset 0px 1px 0px rgba(6, 98, 113, 0.12);
     /*transform: matrix(1, 0, 0, -1, 0, 0);*/
+    /*padding: 0 20px;*/
 }
 
 .footer__container {
@@ -20,6 +21,18 @@
 
 
     .footer__list {
+        width: 25%;
+
+    }
+    .footer__list:last-child {
+        width: 100%;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+
+
+    .footer__list {
          width: 25%;
 
      }
@@ -28,6 +41,8 @@
     }
 
 }
+
+
 
 .footer__item {
 

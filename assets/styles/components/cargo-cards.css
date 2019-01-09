@@ -1,5 +1,6 @@
 .cargo-cards {
     font-family: 'Cera Pro Regular';
+    padding: 0 20px;
 }
 
 .cargo-cards__container {
@@ -11,17 +12,32 @@
 .cargo-cards__list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -135px;
+
 }
 
 .cargo-cards__item {
     width: 100%;
     min-height: 250px;
-    border: 1px solid #C4C4C4;
+    /*border: 1px solid #C4C4C4;*/
     padding: 88px 48px;
-    background-color: #F5F9FA;
+    /*background-color: #F5F9FA;*/
+    background: #FFFFFF;
+    box-shadow: inset 0px -1px 0px #DCEEF2, inset 1px 0px 0px #DCEEF2, inset 0px 1px 0px #DCEEF2, inset -1px 0px 0px #DCEEF2;
+    /*box-shadow: inset 0px 1px 0px #DCEEF2, inset 1px 0px 0px #DCEEF2;*/
     z-index: 1;
     /*background-image: url(../../images/van.jpg);*/
+    vertical-align: middle;
+}
+@media screen and (min-width: 580px) {
+    .cargo-cards__item  {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cargo-cards__item  {
+        width: 33.3%;
+    }
 }
 
 .cargo-cards__content {
@@ -31,14 +47,16 @@
     border-radius: 50%;
     position: center;
     margin: 0 auto;
-}
-@media screen and (min-width: 580px) {
-    .cargo-cards__item  {
-        width: 33.3%;
-    }
+    display: flex;
+
 }
 
-.cargo-cards__item:first-child {
+.cargo-cards__picture {
+    position: center;
+}
+
+
+.cargo-cards__item:hover {
     background-color: #F5F9FA;
 }
 
@@ -47,6 +65,7 @@
     line-height: 27px;
     font-size: 20px;
     color: #066271;
+
 }
 
 .cargo-cards__text {

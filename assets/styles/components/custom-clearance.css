@@ -14,6 +14,10 @@
 
 }
 
+.custom-clearance__content {
+    max-width: 685px;
+}
+
 .custom-clearance__text {
     line-height: 43px;
     font-size: 32px;

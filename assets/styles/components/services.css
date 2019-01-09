@@ -1,5 +1,6 @@
 .services {
     background: url("../../images/map-bg.png");
+    margin: 0 20px;
 }
 
 .services__container {
@@ -14,11 +15,18 @@
 }
 
 .services__item {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 80px 0;
 }
+
+@media screen and (min-width: 768px){
+    .services__item {
+        width: 50%;
+    }
+}
+
 
 .services__title {
     line-height: 53px;

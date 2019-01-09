@@ -25,6 +25,10 @@ body {
 
 }
 
+.active {
+    background-color: red;
+}
+
 .header__content-wrapper {
     line-height: 20px;
     font-size: 14px;

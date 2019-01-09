@@ -97,7 +97,8 @@
 
     <nav class="nav">
         <div class="nav__container">
-            <ul class="nav__list">
+            <ul class="nav__list nav__is-active">
+
                 <li class="nav__item">
                     <a href="#" class="nav__link">
                         <div class="nav__logo-wrapper">
@@ -106,6 +107,7 @@
                         </div>
                     </a>
                 </li>
+
 
                 <li class="nav__item">
                     <a href="./" class="nav__link">
@@ -123,17 +125,42 @@
                     <a href="#" class="nav__link">
                         Услуги
                     </a>
+
                     <div class="nav__popup-wrapper">
                         <ul class="nav__popup-list">
                             <li class="nav__popup-item">
                                 <a href="" class="nav__popup-link">
-                                    Какая-то услуга
+                                    Автомобильные грузоперевозки
                                 </a>
                             </li>
 
                             <li class="nav__popup-item">
                                 <a href="" class="nav__popup-link">
-                                    Какая-то услуга
+                                    Железнодорожные  грузоперевозки
+                                </a>
+                            </li>
+
+                            <li class="nav__popup-item">
+                                <a href="" class="nav__popup-link">
+                                    Морские  грузоперевозки
+                                </a>
+                            </li>
+
+                            <li class="nav__popup-item">
+                                <a href="" class="nav__popup-link">
+                                    Мультимодальные  грузоперевозки
+                                </a>
+                            </li>
+
+                            <li class="nav__popup-item">
+                                <a href="" class="nav__popup-link">
+                                    Негабаритные  грузоперевозки
+                                </a>
+                            </li>
+
+                            <li class="nav__popup-item">
+                                <a href="" class="nav__popup-link">
+                                    Таможенное оформление
                                 </a>
                             </li>
                         </ul>
@@ -151,6 +178,17 @@
                         Контакты
                     </a>
                 </li>
+
+                <li class="nav__item">
+                    <a href="./" class="nav__link primaryButton">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner">
+
+                            </span>
+                        </span>
+                    </a>
+                </li>
+
             </ul>
         </div>
     </nav>
@@ -248,6 +286,7 @@
                             <div class="cargo-cards__content-wrapper">
                                 <div class="cargo-cards__content">
                                     <img src="./assets/images/Auto.svg" alt="" class="cargo-cards__picture">
+
                                 </div>
                             </div>
                         </a>
@@ -257,7 +296,8 @@
                         <a href="" class="cargo-cards__link">
                             <div class="cargo-cards__content-wrapper">
                                 <div class="cargo-cards__content">
-                                    <img src="./assets/images/Auto.svg" alt="" class="cargo-cards__picture">
+                                    <img src="./assets/images/Ship.svg" alt="" class="cargo-cards__picture">
+
                                 </div>
                             </div>
                         </a>
@@ -267,7 +307,18 @@
                         <a href="" class="cargo-cards__link">
                             <div class="cargo-cards__content-wrapper">
                                 <div class="cargo-cards__content">
-                                    <img src="./assets/images/Auto.svg" alt="" class="cargo-cards__picture">
+                                    <img src="./assets/images/Train.svg" alt="" class="cargo-cards__picture">
+                                </div>
+
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="cargo-cards__item">
+                        <a href="" class="cargo-cards__link">
+                            <div class="cargo-cards__content-wrapper">
+                                <div class="cargo-cards__content">
+                                    <img src="./assets/images/Container.svg" alt="" class="cargo-cards__picture">
                                 </div>
                             </div>
                         </a>
@@ -277,7 +328,7 @@
                         <a href="" class="cargo-cards__link">
                             <div class="cargo-cards__content-wrapper">
                                 <div class="cargo-cards__content">
-                                    <img src="./assets/images/Auto.svg" alt="" class="cargo-cards__picture">
+                                    <img src="./assets/images/Loader.svg" alt="" class="cargo-cards__picture">
                                 </div>
                             </div>
                         </a>
@@ -287,17 +338,7 @@
                         <a href="" class="cargo-cards__link">
                             <div class="cargo-cards__content-wrapper">
                                 <div class="cargo-cards__content">
-                                    <img src="./assets/images/Auto.svg" alt="" class="cargo-cards__picture">
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="cargo-cards__item">
-                        <a href="" class="cargo-cards__link">
-                            <div class="cargo-cards__content-wrapper">
-                                <div class="cargo-cards__content">
-                                    <img src="./assets/images/Auto.svg" alt="" class="cargo-cards__picture">
+                                    <img src="./assets/images/Documents.svg" alt="" class="cargo-cards__picture">
                                 </div>
                             </div>
                         </a>
@@ -369,19 +410,19 @@
 
                     <div class="services__partners">
                         <h4 class="services__partners-number">
-                            +50
+                            5 мл.
                         </h4>
                         <p class="services__partners-text">
-                            Компаний партнеров
+                            Доставленных грузов
                         </p>
                     </div>
 
                     <div class="services__partners">
                         <h4 class="services__partners-number">
-                            5 мл.
+                            +50
                         </h4>
                         <p class="services__partners-text">
-                            Доставленных грузов
+                            Компаний партнеров
                         </p>
                     </div>
 
@@ -477,11 +518,25 @@
         <div class="form__container">
             <form action="" class="form__content">
                 <h3 class="form__title">Свяжитесь с нами</h3>
-                <input class="form__field" type="text" placeholder="Введите ваше имя: ">
-                <input class="form__field" type="text" placeholder="Введите вашу электронную почту: ">
-                <input class="form__field" type="text" placeholder="Введите номер телефона: ">
-                <textarea class="form__field form__field--textarea" type="text" placeholder="Задайте ваш вопрос"></textarea>
-                <input class="form__button" type="submit" placeholder="Jnghfdbnm" >
+                <div class="form__input-fields-wrapper">
+                    <div class="form__input-fields">
+                        <input class="form__field" type="text" placeholder="Введите ваше имя: ">
+                        <input class="form__field" type="text" placeholder="Введите вашу электронную почту: ">
+                        <input class="form__field" type="text" placeholder="Введите номер телефона: ">
+                    </div>
+
+                    <div class="form__input-fields">
+                    <textarea class="form__field form__field--textarea" type="text"
+                              placeholder="Задайте ваш вопрос"></textarea>
+                    </div>
+                </div>
+
+                <div class="form__privacy">
+                    <input class="form__checkbox" type="checkbox" >
+                    <h4 class="form__accept">Я согласен с условиями пользовательского соглашения </h4>
+                </div>
+
+                <input class="form__button" type="submit" placeholder="Jnghfdbnm">
             </form>
 
         </div>
@@ -553,6 +608,7 @@
     </footer>
     <script src="./assets/javascript/swiper/swiper.min.js"></script>
     <script src="./assets/javascript/swiper-media.js"></script>
+    <script src="./assets/javascript/menu.js"></script>
 </div>
 
 </body>
