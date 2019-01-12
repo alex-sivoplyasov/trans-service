@@ -1,9 +1,10 @@
 .auto-cards {
     padding: 0 20px;
+    width: 100%;
 }
 
 .auto-cards__container {
-    width: 1136px;
+    max-width: 1136px;
     margin: 0 auto;
 }
 
@@ -47,7 +48,7 @@
     height: 100%;
     left: 0;
     top: 0;
-    object-fit: cover;
+    object-fit: none;
 }
 
 .auto-cards__title {

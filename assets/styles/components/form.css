@@ -1,11 +1,12 @@
 .form {
     margin: 160px 20px;
+    width: 100%;
 }
 
 .form__title {
     line-height: 47px;
     font-size: 40px;
-
+    padding-bottom: 25px;
     color: #066271;
 }
 
@@ -65,6 +66,7 @@
 
 .form__privacy {
     display: flex;
+    padding: 10px 0 25px 0;
 }
 
 .form__checkbox {
@@ -73,6 +75,7 @@
     background: #FFFFFF;
     border: 1px solid #A6D7E4;
     box-sizing: border-box;
+    margin-right: 10px;
 }
 
 .form__accept {

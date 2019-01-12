@@ -1,5 +1,6 @@
 .title {
     background: url("../../images/map-bg.png");
+    width: 100%;
 }
 
 .title__container {

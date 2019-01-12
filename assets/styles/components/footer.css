@@ -4,6 +4,7 @@
     box-shadow: inset 0px 1px 0px rgba(6, 98, 113, 0.12);
     /*transform: matrix(1, 0, 0, -1, 0, 0);*/
     /*padding: 0 20px;*/
+    width: 100%;
 }
 
 .footer__container {

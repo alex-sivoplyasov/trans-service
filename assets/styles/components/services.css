@@ -1,6 +1,7 @@
 .services {
     background: url("../../images/map-bg.png");
     margin: 0 20px;
+    width: 100%;
 }
 
 .services__container {
