@@ -49,14 +49,18 @@
     height: 128px;
     background: linear-gradient(180deg, #D2EEF5 0%, #B6E9F0 100%);
     border-radius: 50%;
-    position: center;
     margin: 0 auto;
     display: flex;
+    position: relative;
 
 }
 
 .cargo-cards__picture {
-    position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    object-fit: cover;
 }
 
 

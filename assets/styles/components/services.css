@@ -1,12 +1,13 @@
 .services {
     background: url("../../images/map-bg.png");
-    margin: 0 20px;
+    /*margin: 0 20px;*/
     width: 100%;
 }
 
 .services__container {
     max-width: 1136px;
     margin: 0 auto;
+    padding: 0 -20px;
 }
 
 .services__list {
@@ -19,7 +20,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 80px 0;
+    padding: 80px 20px;
 }
 
 @media screen and (min-width: 768px){
@@ -70,4 +71,19 @@
     font-size: 16px;
 
     color: #066271;
+}
+
+.services__picture {
+   position: absolute;
+   content: "";
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    height: 200px;
+    width: 340px;
+
+}
+
+.services__picture-wrapper {
+   position: relative;
 }

@@ -18,22 +18,44 @@
 .hero__item {
     min-height: 500px;
 }
+
+.hero__list-wrapper {
+    height: 100%;
+}
 .hero__content {
     width: 850px;
     padding-top: 100px;
 }
 .hero__title {
-    line-height: 88px;
-    font-size: 64px;
+    line-height: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
+
+@media screen and (min-width: 580px){
+    .hero__title {
+        line-height: 88px;
+        font-size: 64px;
+
+    }
+
+}
 .hero__text {
-    line-height: 48px;
-    font-size: 32px;
+    line-height: 14px;
+    font-size: 14px;
 
     color: #FFFFFF;
+}
+
+@media screen and (min-width: 580px) {
+    .hero__text {
+        line-height: 48px;
+        font-size: 32px;
+
+
+    }
 }
 .hero__picture {
     width: 100%;
