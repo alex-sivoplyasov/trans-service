@@ -1,7 +1,11 @@
 .services {
-    background: url("../../images/map-bg.png");
+
     /*margin: 0 20px;*/
     width: 100%;
+}
+
+.services--background {
+    background: url("../../images/map-bg.png");
 }
 
 .services__container {
@@ -82,6 +86,13 @@
     height: 200px;
     width: 340px;
 
+}
+
+@media screen and (min-width: 1024px) {
+    .services__picture {
+        height: 320px;
+        width: 540px;
+    }
 }
 
 .services__picture-wrapper {

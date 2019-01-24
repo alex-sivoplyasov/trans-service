@@ -20,7 +20,7 @@
     width: 100%;
     min-height: 250px;
     /*border: 1px solid #C4C4C4;*/
-    padding: 88px 48px;
+    padding: 88px 80px;
     /*background-color: #F5F9FA;*/
     background: #FFFFFF;
     box-shadow: inset 0px -1px 0px #DCEEF2, inset 1px 0px 0px #DCEEF2, inset 0px 1px 0px #DCEEF2, inset -1px 0px 0px #DCEEF2;
@@ -52,6 +52,8 @@
     margin: 0 auto;
     display: flex;
     position: relative;
+    /*margin-bottom: 20px;*/
+
 
 }
 
@@ -73,11 +75,14 @@
 }
 
 
+
 .cargo-cards__title {
+    margin-top: 20px;
     line-height: 27px;
     font-size: 20px;
     color: #066271;
     text-align: center;
+    /*max-width: 200px;*/
 
 }
 

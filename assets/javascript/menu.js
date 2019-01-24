@@ -1,3 +1,5 @@
+activeMenu();
+
 let button = document.querySelector('.nav__burger-wrapper');
 console.log(button);
 button.addEventListener('click', onClickPrimaryButton);
@@ -48,6 +50,30 @@ function onClickPrimaryButton() {
 
 
 }
+
+function activeMenu() {
+    let currentlyUrl = location.href;
+    console.log(currentlyUrl);
+    // var b = location.href;
+    //
+    let link = document.querySelectorAll('.nav__link');
+    let linkArray = Array.prototype.slice.call(link);
+    // console.log(element);
+    // console.log(ar);
+
+    for(let i = 0; i < linkArray.length; i++) {
+        console.log("Страница ссылки: " + linkArray[i].href);
+        // console.log(b);
+        console.log("Текущая" + currentlyUrl);
+        if(linkArray[i].href == currentlyUrl) {
+
+            console.log(linkArray[i].classList);
+            // linkArray[i].classList.add('active');
+        }
+    }
+}
+
+
 
 //
 // let button = document.querySelector('.nav__burger-wrapper');

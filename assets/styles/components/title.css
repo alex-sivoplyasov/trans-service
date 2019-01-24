@@ -1,6 +1,7 @@
 .title {
-    background: url("../../images/map-bg.png");
+    /*background: url("../../images/map-bg.png");*/
     width: 100%;
+    padding: 0 20px;
 }
 
 .title__container {
@@ -27,7 +28,7 @@
 .title__title {
     line-height: 53px;
     font-size: 40px;
-
+    width: 50%;
     color: #066271;
 
 }

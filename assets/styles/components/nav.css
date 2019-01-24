@@ -217,6 +217,9 @@
     border-bottom: 3px solid #066271;
     border-top: 2px solid #066271;
 }
+.nav--color {
+    border: none;
+}
 
 .nav__container {
     max-width: 1136px;
@@ -231,18 +234,32 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 0 10px 0 20px;
 }
 
 .nav__popup-wrapper {
-    /*display: none;*/
-    position: absolute;
-    width: 430px;
-    top: 50px;
-    z-index: 10;
-    left: -9999px;
-    opacity: 0;
-    background-color: #f2f2f2;
-    transition: opacity 0.3s;
+
+}
+
+@media screen and (min-width: 1024px){
+    .nav__popup-wrapper {
+        /*display: none;*/
+        position: absolute;
+        width: 430px;
+        top: 50px;
+        z-index: 10;
+        left: -9999px;
+        opacity: 0;
+        background-color: #FFF;
+        transition: opacity 0.3s;
+
+        /*background-color: #066271;*/
+    }
+
+    .nav__wrapper {
+        padding: 0;
+    }
+
 }
 
 .nav__popup-wrapper:before {
@@ -288,7 +305,7 @@ color: #066271;
     /*display: flex;*/
     justify-content: space-between;
     flex-direction: column;
-    display: none;
+    /*display: none;*/
 
     transition: opacity 0.3s;
 
@@ -312,29 +329,62 @@ color: #066271;
 
 
 @media screen and (max-width: 1024px){
+    .nav__list {
+        margin-top: 40px;
+        opacity: 0;
+    }
+
     .nav__is-active  {
         background-color: #066271;
         display: flex;
-        z-index: 10;
+        z-index: 500;
         color: white;
+        opacity: 1;
+        padding-left: 10px;
+
     }
 
-    .nav__list {
-        margin-top: 40px;
-    }
+
 
     .nav__link {
         color: #FFF;
+        padding-left: 10px;
     }
+
 
     .nav__item {
-        padding: 10px 0;
+        padding: 12px 0;
     }
 
+    .nav__item--parent {
+        padding-bottom: 0;
+    }
+
+    .nav__item:hover, .nav__popup-item:hover {
+        background-color: #078497;
+    }
+
+    .nav__item:visited, .nav__popup-item:visited {
+        background-color: red;
+    }
     .nav__popup-list {
         display: block;
     }
 
+    .nav__popup-wrapper {
+        position: static;
+        opacity: 1;
+    }
+
+    .nav__popup-item {
+        background-color: #066271;
+        box-shadow: none;
+        color: #FFF;
+    }
+
+    .nav__popup-link {
+        color: #FFF;
+    }
 }
 
 .nav__burger-wrapper {
@@ -367,6 +417,10 @@ color: #066271;
         display: none;
     }
 
+    .nav__popup-link {
+        /*color: #FFF;*/
+    }
+
 }
 
 
@@ -394,7 +448,7 @@ color: #066271;
     right: 10px;
     width: 35px;
     height: 2px;
-    background-color: #000;
+    background-color: #078497;
     transition: .5s all;
 }
 
