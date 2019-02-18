@@ -216,6 +216,23 @@
     width: 100%;
     border-bottom: 3px solid #066271;
     border-top: 2px solid #066271;
+    /*position: fixed;*/
+    top: 40px;
+    left: 0;
+    z-index: 12;
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .nav {
+        position: fixed;
+    }
+}
+
+.nav--fixed {
+    height: 65px;
+    padding: 22px 0 32px 0;
 }
 .nav--color {
     border: none;
@@ -236,6 +253,11 @@
     justify-content: space-between;
     padding: 0 10px 0 20px;
 }
+
+.nav__logo-wrapper {
+    margin-top: -5px;
+}
+
 
 .nav__popup-wrapper {
 

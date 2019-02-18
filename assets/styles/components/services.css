@@ -27,11 +27,22 @@
     padding: 80px 20px;
 }
 
+
+
+
+
 @media screen and (min-width: 768px){
     .services__item {
         width: 50%;
     }
+
+    .services__item--padding {
+        padding: 80px 20px 180px 20px;
+
+    }
 }
+
+
 
 
 .services__title {
@@ -58,10 +69,20 @@
 }
 
 .services__partners {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+
+@media screen and (min-width: 768px){
+    .services__partners {
+        width: 50%;
+    }
+
+
+}
+
+
 
 .services__partners-number {
     line-height: 64px;

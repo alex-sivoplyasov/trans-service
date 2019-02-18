@@ -1,6 +1,7 @@
-.custom-clearance {
+.customs-clearance{
     width: 100%;
     /*overflow: hidden;*/
+    margin-top: 140px;
 }
 
 .custom-clearance__container {
@@ -34,6 +35,11 @@
 }
 
 @media screen and (min-width: 768px) {
+    .customs-clearance{
+
+        /*overflow: hidden;*/
+        margin-top: 0;
+    }
 
     .custom-clearance__container {
         padding: 0 90px;

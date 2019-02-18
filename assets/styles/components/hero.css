@@ -3,7 +3,15 @@
     height: 100vh;
     /*padding: 0 20px;*/
     margin-bottom: -40px;
+    /*margin-top: 170px;*/
+    opacity: .99;
 
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        margin-top: 170px;
+    }
 }
 .hero__container {
     position: relative;
@@ -31,10 +39,17 @@
 }
 .hero__title {
     line-height: 54px;
-    font-size: 40px;
+    font-size: 36px;
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.hero__title-background {
+    padding: 0 20px;
+    background: #379BA7;
+    border-radius: 1px;
+}
+
 
 
 @media screen and (min-width: 580px){

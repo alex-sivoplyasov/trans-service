@@ -2,6 +2,7 @@
     /*background: url("../../images/map-bg.png");*/
     width: 100%;
     padding: 0 20px;
+
 }
 
 .title__container {
@@ -17,9 +18,15 @@
 }
 
 .title__item {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+    .title__item {
+        width: 50%;
+    }
 }
 
 .title__item:first-child {

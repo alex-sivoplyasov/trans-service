@@ -1,6 +1,20 @@
 .breadcrumbs {
     width: 100%;
     padding: 0 20px;
+
+}
+
+
+/*@media screen and (min-width: 1024px) {*/
+    /*.breadcrumbs {*/
+        /*margin-top: 170px;*/
+    /*}*/
+/*}*/
+
+@media screen and (min-width: 1024px) {
+    .breadcrumbs {
+        margin-top: 180px;
+    }
 }
 
 .breadcrumbs__container {

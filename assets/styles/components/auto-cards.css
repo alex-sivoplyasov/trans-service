@@ -39,7 +39,7 @@
 }
 .auto-cards__picture-wrapper {
     position: relative;
-    min-height: 275px;
+    min-height: 220px;
 }
 
 .auto-cards__picture {
@@ -52,6 +52,7 @@
 }
 
 .auto-cards__title {
+    margin-top: -20px;
     line-height: 27px;
     font-size: 20px;
     text-align: center;
